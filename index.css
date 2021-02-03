@@ -1,0 +1,16 @@
+#container {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+
+.box {
+    min-height: 700px;
+  }
+  
+#linkerkolom {
+    background-color: rgb(24, 198, 229);
+}
+  
+#rechterkolom {
+    background-color: red;
+}
