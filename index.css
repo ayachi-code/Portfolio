@@ -5,22 +5,23 @@ body, html {
   
 #container {
     display: grid;
-    grid-template-columns: 1fr 7fr;   
+    grid-template-columns: 1.5fr 6fr;  
     margin: 0 auto;
 }
 
 .box {
+  grid-row: 1/2;
   min-height: 900px;
 }
 
-/*
 #linkerkolom {
-    background-color: rgb(54, 120, 186);
-    opacity: 0.2;  
+    grid-column: 1/1;
+    background-color: #A7BED3;
+    opacity: 0.4;  
 }
-*/
 
 #rechterkolom {
+    grid-column: 1 / -1;
     height: 100%;
     background-image: url("./assets/backgroundPicture.jpg");
     background-size: cover;
