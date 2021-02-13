@@ -1,16 +1,28 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
 #container {
     display: grid;
-    grid-template-columns: 1fr 6fr;
+    grid-template-columns: 1fr 7fr;   
+    margin: 0 auto;
 }
 
 .box {
-    min-height: 700px;
-  }
-  
+  min-height: 900px;
+}
+
+/*
 #linkerkolom {
-    background-color: rgb(24, 198, 229);
+    background-color: rgb(54, 120, 186);
+    opacity: 0.2;  
 }
-  
+*/
+
 #rechterkolom {
-    background-color: red;
+    height: 100%;
+    background-image: url("./assets/backgroundPicture.jpg");
+    background-size: cover;
 }
+
