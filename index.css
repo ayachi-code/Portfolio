@@ -6,27 +6,58 @@ body, html {
 
 #container {
     display: grid;
-    grid-template-columns: 1.5fr 6fr;  
+    grid-template-columns: repeat(4,2fr);
+    grid-auto-rows: minmax(100px,auto);
     margin: 0 auto;
+    grid-template-areas: "naam backgroundimage backgroundimage backgroundimage"
+                         "naam backgroundimage backgroundimage backgroundimage"
+                         "naam backgroundimage backgroundimage backgroundimage"
+                         "naam backgroundimage backgroundimage backgroundimage"
+                         "naam backgroundimage backgroundimage backgroundimage"
+                         "naam backgroundimage backgroundimage backgroundimage";
 }
 
+#backgroundimage {
+  grid-area: backgroundimage;
+  grid-column: 1 / -1;
+  background: url("./assets/backgroundPicture.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#naam {
+  grid-area: naam;
+  grid-column: 1/1;
+  background-color: #A7BED3;
+  opacity: 0.5;
+}
+
+/*
 .box {
   grid-row: 1/2;
   min-height: 900px;
 }
+*/
 
-#linkerkolom {
-    grid-column: 1/1;
+#naam {
+    /*grid-column: 1/1;
     background-color: #A7BED3;
-    opacity: 0.4;  
+    opacity: 0.4;
+    display: grid;
+    grid-template-columns: 1fr;    
+    */
 }
 
 
 #rechterkolom {
+  /*
     grid-column: 1 / -1;
     background: url("./assets/backgroundPicture.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
+    */
 }
