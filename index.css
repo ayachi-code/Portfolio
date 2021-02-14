@@ -1,7 +1,10 @@
 body, html {
     height: 100%;
     margin: 0;
-    overflow: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
 }
 
 #container {
@@ -9,12 +12,14 @@ body, html {
     grid-template-columns: repeat(4,2fr);
     grid-auto-rows: minmax(100px,auto);
     margin: 0 auto;
+    min-height: 900px;
+
     grid-template-areas: "naam backgroundimage backgroundimage backgroundimage"
                          "naam backgroundimage backgroundimage backgroundimage"
-                         "naam backgroundimage backgroundimage backgroundimage"
-                         "naam backgroundimage backgroundimage backgroundimage"
-                         "naam backgroundimage backgroundimage backgroundimage"
-                         "naam backgroundimage backgroundimage backgroundimage";
+                         "links backgroundimage backgroundimage backgroundimage"
+                         "links backgroundimage backgroundimage backgroundimage"
+                         "socialmedia backgroundimage backgroundimage backgroundimage"
+                         "socialmedia backgroundimage backgroundimage backgroundimage";
 }
 
 #backgroundimage {
@@ -34,12 +39,19 @@ body, html {
   opacity: 0.5;
 }
 
-/*
-.box {
-  grid-row: 1/2;
-  min-height: 900px;
+#links {
+  grid-area: links;
+  grid-column: 1/1;
+  background-color: #227ccf;
+  opacity: 0.5;
 }
-*/
+
+#socialmedia {
+  grid-area: socialmedia;
+  grid-column: 1/1;
+  background-color: rgb(142, 76, 76);
+  opacity: 0.5;
+}
 
 #naam {
     /*grid-column: 1/1;
