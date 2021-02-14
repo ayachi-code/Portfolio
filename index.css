@@ -1,8 +1,9 @@
 body, html {
     height: 100%;
     margin: 0;
-  }
-  
+    overflow: hidden;
+}
+
 #container {
     display: grid;
     grid-template-columns: 1.5fr 6fr;  
@@ -20,10 +21,12 @@ body, html {
     opacity: 0.4;  
 }
 
+
 #rechterkolom {
     grid-column: 1 / -1;
-    height: 100%;
-    background-image: url("./assets/backgroundPicture.jpg");
-    background-size: cover;
+    background: url("./assets/backgroundPicture.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
 }
-
