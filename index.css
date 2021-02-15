@@ -7,6 +7,11 @@ body, html {
   width: 0px;
 }
 
+a {
+  text-decoration: none;
+  color: rgb(225, 198, 198);
+}
+
 #profilePicture {
   border-radius: 50%;
   height:152px;
