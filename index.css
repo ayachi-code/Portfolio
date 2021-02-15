@@ -12,6 +12,11 @@ a {
   color: rgb(225, 198, 198);
 }
 
+#touch {
+  text-transform: capitalize;
+  color: rgb(225, 198, 198);
+}
+
 #profilePicture {
   border-radius: 50%;
   height:152px;
@@ -74,4 +79,11 @@ a {
   grid-column: 1/1;
   background-color: rgba(145,13,13,.8);
   opacity: 0.8;
+  padding: 0 40px;
+}
+
+
+#ssize {
+  width:50px;
+  height:50px;
 }
