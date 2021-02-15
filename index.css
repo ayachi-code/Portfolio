@@ -7,6 +7,18 @@ body, html {
   width: 0px;
 }
 
+#profilePicture {
+  border-radius: 50%;
+  height:152px;
+  height: 152px;
+}
+
+#for-lastName, #motto {
+  font-family:courier,arial,helvetica;
+  color: rgb(225, 198, 198);
+  font-size: 20px;
+}
+
 #container {
     display: grid;
     grid-template-columns: repeat(4,2fr);
@@ -35,41 +47,21 @@ body, html {
 #naam {
   grid-area: naam;
   grid-column: 1/1;
-  background-color: #A7BED3;
+  background-color: #a51a1a;
   opacity: 0.5;
+  text-align: center;
 }
 
 #links {
   grid-area: links;
   grid-column: 1/1;
-  background-color: #227ccf;
+  background-color: #a51a1a;
   opacity: 0.5;
 }
 
 #socialmedia {
   grid-area: socialmedia;
   grid-column: 1/1;
-  background-color: rgb(142, 76, 76);
+  background-color: #a51a1a;
   opacity: 0.5;
-}
-
-#naam {
-    /*grid-column: 1/1;
-    background-color: #A7BED3;
-    opacity: 0.4;
-    display: grid;
-    grid-template-columns: 1fr;    
-    */
-}
-
-
-#rechterkolom {
-  /*
-    grid-column: 1 / -1;
-    background: url("./assets/backgroundPicture.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;
-    */
 }
