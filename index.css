@@ -19,6 +19,10 @@ body, html {
   font-size: 20px;
 }
 
+#portfoliolink, #contactmelink {
+  color: rgba(255, 255, 255, 0.812);
+}
+
 #container {
     display: grid;
     grid-template-columns: repeat(4,2fr);
@@ -47,21 +51,22 @@ body, html {
 #naam {
   grid-area: naam;
   grid-column: 1/1;
-  background-color: #a51a1a;
-  opacity: 0.5;
+  background-color: rgba(145,13,13,.8);
+  opacity: 0.8;
   text-align: center;
 }
 
 #links {
   grid-area: links;
   grid-column: 1/1;
-  background-color: #a51a1a;
-  opacity: 0.5;
+  background-color: rgba(145,13,13,.8);
+  opacity: 0.8;
+  padding: 0 40px;
 }
 
 #socialmedia {
   grid-area: socialmedia;
   grid-column: 1/1;
-  background-color: #a51a1a;
-  opacity: 0.5;
+  background-color: rgba(145,13,13,.8);
+  opacity: 0.8;
 }
