@@ -1,6 +1,11 @@
 body, html {
     height: 100%;
     margin: 0;
+    background: url("./assets/backgroundPicture.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 ::-webkit-scrollbar {
@@ -46,16 +51,6 @@ a {
                          "links backgroundimage backgroundimage backgroundimage"
                          "socialmedia backgroundimage backgroundimage backgroundimage"
                          "socialmedia backgroundimage backgroundimage backgroundimage";
-}
-
-#backgroundimage {
-  grid-area: backgroundimage;
-  grid-column: 1 / -1;
-  background: url("./assets/backgroundPicture.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 #naam {
