@@ -45,12 +45,26 @@ a {
     margin: 0 auto;
     min-height: 900px;
 
-    grid-template-areas: "naam backgroundimage backgroundimage backgroundimage"
-                         "naam backgroundimage backgroundimage backgroundimage"
+    grid-template-areas: "naam intro intro intro"
+                         "naam intro intro intro"
                          "links backgroundimage backgroundimage backgroundimage"
                          "links backgroundimage backgroundimage backgroundimage"
                          "socialmedia backgroundimage backgroundimage backgroundimage"
                          "socialmedia backgroundimage backgroundimage backgroundimage";
+}
+
+
+#intro {
+  grid-area: intro;
+  padding-left: 110px;
+  padding-top: 130px;
+}
+
+h4#introduction {
+  color: white;
+  font-size: 40px;
+  font-family: Arial, sans-serif;
+  font-weight: 500;
 }
 
 #naam {
@@ -59,6 +73,14 @@ a {
   background-color: rgba(145,13,13,.8);
   opacity: 0.8;
   text-align: center;
+}
+
+#information {
+  color: white;
+  font-weight: 300;
+  font-size: 30px;
+  position: fixed;
+  margin-top: 110px;
 }
 
 #links {
