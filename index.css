@@ -65,6 +65,7 @@ h4#introduction {
   font-size: 40px;
   font-family: Arial, sans-serif;
   font-weight: 500;
+  position: fixed;
 }
 
 #naam {
