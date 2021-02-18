@@ -8,6 +8,11 @@ body, html {
     background-size: cover;
 }
 
+button {
+  outline: none !important;
+  box-shadow: none !important;
+} 
+
 ::-webkit-scrollbar {
   width: 0px;
 }
@@ -47,12 +52,37 @@ a {
 
     grid-template-areas: "naam intro intro intro"
                          "naam intro intro intro"
-                         "links backgroundimage backgroundimage backgroundimage"
-                         "links backgroundimage backgroundimage backgroundimage"
+                         "links content content content"
+                         "links content content content"
                          "socialmedia backgroundimage backgroundimage backgroundimage"
                          "socialmedia backgroundimage backgroundimage backgroundimage";
 }
 
+
+#content {
+  padding-left: 110px;
+  padding-top: 50px;
+  grid-area: content;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#portfolio {
+  position: fixed;
+  background-color: transparent; 
+  color: rgba(255, 255, 255, 0.559);
+  width: 120px;
+  height: 50px;
+  border-style: outset;
+  border-color: gray;
+  border-style: solid;
+  border-width: 2px;
+}
+
+#portfolio:hover {
+  color: rgba(255, 255, 255, 0.723);
+  border-color:rgba(255, 255, 255, 0.723);
+}
 
 #intro {
   grid-area: intro;
