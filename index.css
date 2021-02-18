@@ -65,6 +65,7 @@ a {
   grid-area: content;
   font-size: 30px;
   font-family: Arial, Helvetica, sans-serif;
+  display: none;
 }
 
 #portfolio {
