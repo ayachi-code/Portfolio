@@ -16,4 +16,6 @@ body, html {
     display: grid;
     grid-template-columns: repeat(4,2fr);
     grid-auto-rows: minmax(100px,auto);
+    margin: 0 auto;
+    min-height: 900px;
 }
