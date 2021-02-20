@@ -1,21 +1,40 @@
-body, html {
-    height: 100%;
-    margin: 0;
-    background: url("../assets/backgroundPicture.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
- 
-::-webkit-scrollbar {
-    width: 0px;
-}
+@import "../index.css"; 
 
-#container {
+
+#containerPortfolio {
     display: grid;
     grid-template-columns: repeat(4,2fr);
     grid-auto-rows: minmax(100px,auto);
     margin: 0 auto;
     min-height: 900px;
+    grid-template-areas: "naam intro intro intro"
+                         "naam intro intro intro"
+                         "links content content content"
+                         "links content content content"
+                         "socialmedia backgroundimage backgroundimage backgroundimage"
+                         "socialmedia backgroundimage backgroundimage backgroundimage";
+}
+
+#naam {
+    grid-area: naam;
+    grid-column: 1/1;
+    background-color: rgba(145,13,13,.8);
+    opacity: 0.8;
+    text-align: center;
+  }
+
+  #links {
+    grid-area: links;
+    grid-column: 1/1;
+    background-color: rgba(145,13,13,.8);
+    opacity: 0.8;
+    padding: 0 40px;
+  }
+  
+  #socialmedia {
+    grid-area: socialmedia;
+    grid-column: 1/1;
+    background-color: rgba(145,13,13,.8);
+    opacity: 0.8;
+    padding: 0 40px;
 }
