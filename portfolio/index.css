@@ -8,3 +8,6 @@ body, html {
     background-size: cover;
 }
  
+::-webkit-scrollbar {
+    width: 0px;
+  }
