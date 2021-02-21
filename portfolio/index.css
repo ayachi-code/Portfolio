@@ -1,6 +1,5 @@
 @import "../index.css"; 
 
-
 #containerPortfolio {
     display: grid;
     grid-template-columns: repeat(4,2fr);
@@ -45,6 +44,11 @@
   color: white;
 }
 
+#introduction {
+  width: 500px;
+  position: fixed;
+}
+
 #projects {
   grid-area: projects;
   background-color: white;
@@ -52,7 +56,8 @@
 }
 
 #PortfolioIntor {
-  color: rgb(48, 48, 48);
+  color: rgba(48, 48, 48, 0.709);
   font-size:30px;
   font-family:'Times New Roman', Times, serif;
+  text-transform: uppercase;
 }
