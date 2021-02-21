@@ -7,12 +7,12 @@
     grid-auto-rows: minmax(100px,auto);
     margin: 0 auto;
     min-height: 900px;
-    grid-template-areas: "naam intro intro intro"
-                         "naam intro intro intro"
-                         "links content content content"
-                         "links content content content"
-                         "socialmedia backgroundimage backgroundimage backgroundimage"
-                         "socialmedia backgroundimage backgroundimage backgroundimage";
+    grid-template-areas: "naam projects projects projects"
+                         "naam projects projects projects"
+                         "links projects projects projects"
+                         "links projects projects projects"
+                         "socialmedia projects projects projects"
+                         "socialmedia projects projects projects";
 }
 
 #naam {
@@ -43,4 +43,16 @@
   text-transform: uppercase;
   font-family:'Times New Roman', Times, serif;
   color: white;
+}
+
+#projects {
+  grid-area: projects;
+  background-color: white;
+  padding-left: 40px;
+}
+
+#PortfolioIntor {
+  color: rgb(48, 48, 48);
+  font-size:30px;
+  font-family:'Times New Roman', Times, serif;
 }
