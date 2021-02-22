@@ -44,11 +44,6 @@
   color: white;
 }
 
-#introduction {
-  width: 500px;
-  position: fixed;
-}
-
 #projects {
   grid-area: projects;
   background-color: white;
@@ -60,4 +55,13 @@
   font-size:30px;
   font-family:'Times New Roman', Times, serif;
   text-transform: uppercase;
+}
+
+
+#project1 {
+  width: 85%;
+  height: 100px;
+  border-radius: 20px;
+  border-style: dashed;
+  border-color: black;
 }
