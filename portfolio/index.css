@@ -64,4 +64,14 @@
   border-radius: 20px;
   border-style: dashed;
   border-color: black;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#spacefinderbanner {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  display:flex;
 }
