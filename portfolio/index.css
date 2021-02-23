@@ -14,6 +14,13 @@
                          "socialmedia projects projects projects";
 }
 
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+
 #naam {
     grid-area: naam;
     grid-column: 1/1;
@@ -61,17 +68,21 @@
 #project1 {
   width: 85%;
   height: 100px;
-  border-radius: 20px;
-  border-style: dashed;
-  border-color: black;
+  border-style:groove;
+  border-color: rgb(176, 11, 11);
   display: flex;
   justify-content: space-evenly;
 }
 
 #spacefinderbanner {
   font-family: Arial, Helvetica, sans-serif;
-  width: 25%;
+  width: 23%;
   height: 100%;
-  text-align: center;
-  display:flex;
+  background-color: red;
+}
+
+#spacefinderinfo {
+  width: 100%;
+  height: 100%;
+  background-color: white;
 }
