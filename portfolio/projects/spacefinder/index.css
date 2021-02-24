@@ -6,11 +6,17 @@
     grid-auto-rows: minmax(100px,auto);
     margin: 0 auto;
     min-height: 900px;
-    grid-template-areas: "naam projects projects projects"
-                         "naam projects projects projects"
-                         "links projects projects projects"
-                         "links projects projects projects"
-                         "socialmedia projects projects projects"
-                         "socialmedia projects projects projects";
+    grid-template-areas: "naam spacefinder spacefinder spacefinder"
+                         "naam spacefinder spacefinder spacefinder"
+                         "links spacefinder spacefinder spacefinder"
+                         "links spacefinder spacefinder spacefinder"
+                         "socialmedia spacefinder spacefinder spacefinder"
+                         "socialmedia spacefinder spacefinder spacefinder";
 }
 
+
+#spacefinder {
+    grid-area: spacefinder;
+    background-color: white;
+    padding-left: 40px;
+}
