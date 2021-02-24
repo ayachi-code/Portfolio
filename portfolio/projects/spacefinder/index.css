@@ -1,2 +1,16 @@
-@import "/portfolio/index.css"
+@import "/index.css"; 
+
+#containerPortfolio {
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    grid-auto-rows: minmax(100px,auto);
+    margin: 0 auto;
+    min-height: 900px;
+    grid-template-areas: "naam projects projects projects"
+                         "naam projects projects projects"
+                         "links projects projects projects"
+                         "links projects projects projects"
+                         "socialmedia projects projects projects"
+                         "socialmedia projects projects projects";
+}
 
