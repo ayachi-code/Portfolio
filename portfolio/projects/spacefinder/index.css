@@ -23,4 +23,7 @@
 
 #intro {
     padding-top: 0;
+    margin: auto;
+    position: fixed;
+    left: 50%;
 }
