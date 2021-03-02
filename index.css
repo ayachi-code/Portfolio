@@ -1,7 +1,7 @@
 body, html {
     height: 100%;
     margin: 0;
-    background: url("./assets/backgroundPicture.jpg") no-repeat center center fixed;
+    background: url("/assets/images/backgroundPicture.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
