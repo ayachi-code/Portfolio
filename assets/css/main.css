@@ -1,0 +1,138 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background: url("/assets/images/backgroundPicture.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+button {
+  outline: none !important;
+  box-shadow: none !important;
+} 
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(225, 198, 198);
+}
+
+#touch {
+  text-transform: capitalize;
+  color: rgb(225, 198, 198);
+}
+
+#profilePicture {
+  border-radius: 50%;
+  height:152px;
+  height: 152px;
+}
+
+#for-lastName, #motto {
+  font-family:courier,arial,helvetica;
+  color: rgb(225, 198, 198);
+  font-size: 20px;
+}
+
+#portfoliolink, #contactmelink {
+  color: rgba(255, 255, 255, 0.812);
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    grid-auto-rows: minmax(100px,auto);
+    margin: 0 auto;
+    min-height: 900px;
+
+    grid-template-areas: "naam intro intro intro"
+                         "naam intro intro intro"
+                         "links content content content"
+                         "links content content content"
+                         "socialmedia backgroundimage backgroundimage backgroundimage"
+                         "socialmedia backgroundimage backgroundimage backgroundimage";
+}
+
+
+#content {
+  padding-left: 110px;
+  padding-top: 50px;
+  grid-area: content;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: none;
+}
+
+#portfolio {
+  position: fixed;
+  background-color: transparent; 
+  color: rgba(255, 255, 255, 0.559);
+  width: 120px;
+  height: 50px;
+  border-style: outset;
+  border-color: gray;
+  border-style: solid;
+  border-width: 2px;
+}
+
+#portfolio:hover {
+  color: rgba(255, 255, 255, 0.723);
+  border-color:rgba(255, 255, 255, 0.723);
+}
+
+#intro {
+  grid-area: intro;
+  padding-left: 110px;
+  padding-top: 130px;
+}
+
+h4#introduction {
+  color: white;
+  font-size: 40px;
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+  position: fixed;
+}
+
+#naam {
+  grid-area: naam;
+  grid-column: 1/1;
+  background-color: rgba(145,13,13,.8);
+  opacity: 0.8;
+  text-align: center;
+}
+
+#information {
+  color: white;
+  font-weight: 300;
+  font-size: 30px;
+  position: fixed;
+  margin-top: 110px;
+}
+
+#links {
+  grid-area: links;
+  grid-column: 1/1;
+  background-color: rgba(145,13,13,.8);
+  opacity: 0.8;
+  padding: 0 40px;
+}
+
+#socialmedia {
+  grid-area: socialmedia;
+  grid-column: 1/1;
+  background-color: rgba(145,13,13,.8);
+  opacity: 0.8;
+  padding: 0 40px;
+}
+
+
+#ssize {
+  width:50px;
+  height:50px;
+}
