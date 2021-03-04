@@ -19,7 +19,7 @@ img {
   max-height: 100%;
 }
 
-#naam {
+/* #naam {
     grid-area: naam;
     grid-column: 1/1;
     background-color: rgba(145,13,13,.8);
@@ -41,7 +41,7 @@ img {
     background-color: rgba(145,13,13,.8);
     opacity: 0.8;
     padding: 0 40px;
-}
+} */
 
 #portfoliolink {
   text-transform: uppercase;
