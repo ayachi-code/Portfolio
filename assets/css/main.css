@@ -22,24 +22,24 @@ a {
   color: rgb(225, 198, 198);
 }
 
-#touch {
+.touch {
   text-transform: capitalize;
   color: rgb(225, 198, 198);
 }
 
-#profilePicture {
+.profilePicture {
   border-radius: 50%;
   height:152px;
   height: 152px;
 }
 
-#for-lastName, #motto {
+.for-lastName, .motto {
   font-family:courier,arial,helvetica;
   color: rgb(225, 198, 198);
   font-size: 20px;
 }
 
-#portfoliolink, #contactmelink {
+.portfoliolink, .contactmelink {
   color: rgba(255, 255, 255, 0.812);
 }
 
@@ -99,12 +99,20 @@ h4#introduction {
   position: fixed;
 }
 
-#naam {
+.naam {
   grid-area: naam;
   grid-column: 1/1;
   background-color: rgba(145,13,13,.8);
   opacity: 0.8;
   text-align: center;
+}
+
+.links {
+  grid-area: links;
+  grid-column: 1/1;
+  background-color: rgba(145,13,13,.8);
+  opacity: 0.8;
+  padding: 0 40px;
 }
 
 #information {
@@ -115,15 +123,7 @@ h4#introduction {
   margin-top: 110px;
 }
 
-#links {
-  grid-area: links;
-  grid-column: 1/1;
-  background-color: rgba(145,13,13,.8);
-  opacity: 0.8;
-  padding: 0 40px;
-}
-
-#socialmedia {
+.socialmedia {
   grid-area: socialmedia;
   grid-column: 1/1;
   background-color: rgba(145,13,13,.8);
@@ -132,7 +132,7 @@ h4#introduction {
 }
 
 
-#ssize {
+.ssize {
   width:50px;
   height:50px;
 }
