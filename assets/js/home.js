@@ -4,13 +4,13 @@ $(document).ready(function(){
     },1600);
 });
 
-document.getElementById("specialL").style.visibility = "hidden";
+document.getElementsByClassName("specialL")[0].style.visibility = "hidden";
 
-document.getElementById("portfoliolink").addEventListener("mouseover", (event) => {
-    document.getElementById("specialL").style.visibility = "visible";
+document.getElementsByClassName("portfoliolink")[0].addEventListener("mouseover", (event) => {
+    document.getElementsByClassName("specialL")[0].style.visibility = "visible";
 });
 
 
-document.getElementById("portfoliolink").addEventListener("mouseout", (event) => {
-    document.getElementById("specialL").style.visibility = "hidden";
+document.getElementsByClassName("portfoliolink")[0].addEventListener("mouseout", (event) => {
+    document.getElementsByClassName("specialL")[0].style.visibility = "hidden";
 });
