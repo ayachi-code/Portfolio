@@ -28,7 +28,6 @@ img {
 .intro {
   padding-top: 0;
   margin: auto;
-  position: fixed;
   left: 25%;
 }
 
@@ -46,57 +45,5 @@ img {
   color: black;
   font-size: 13px;
   font-size: 2vw;
-  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica 
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica';
 }
-
-/* 
-#portfoliolink {
-  text-transform: uppercase;
-  font-family:'Times New Roman', Times, serif;
-  color: white;
-}
-
-#projects {
-  grid-area: projects;
-  background-color: white;
-  padding-left: 40px;
-}
-
-#PortfolioIntor {
-  color: rgba(48, 48, 48, 0.709);
-  font-size:30px;
-  font-family:'Times New Roman', Times, serif;
-  text-transform: uppercase;
-}
-
-.projecttitle {
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-.wrapper {
-  width: 80%;
-  height: 12.5%;
-  display: flex;
-  border-style:groove;
-  border-color: rgb(176, 11, 11);
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 3%;
-}
-
-.banner {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 30%;
-  height: 100%;
-}
-
-.appinfo {
-  width: 70%;
-  height: 100%;
-  background-color:white;
-}
-
-.projectinformation {
-  font-size: 1vw;
-} */
