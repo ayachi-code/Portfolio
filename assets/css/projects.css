@@ -14,12 +14,8 @@
                          "socialmedia projects projects projects";
 }
 
-/* img {
-  max-width: 100%;
-  max-height: 100%;
-}
 
-#naam {
+.naam {
     grid-area: naam;
     grid-column: 1/1;
     background-color: rgba(145,13,13,.8);
@@ -27,7 +23,7 @@
     text-align: center;
   }
 
-  #links {
+  .links {
     grid-area: links;
     grid-column: 1/1;
     background-color: rgba(145,13,13,.8);
@@ -35,12 +31,17 @@
     padding: 0 40px;
   }
   
-  #socialmedia {
+  .socialmedia {
     grid-area: socialmedia;
     grid-column: 1/1;
     background-color: rgba(145,13,13,.8);
     opacity: 0.8;
     padding: 0 40px;
+}
+
+/* img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 #portfoliolink {
