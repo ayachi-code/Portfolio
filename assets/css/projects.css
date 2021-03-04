@@ -14,7 +14,10 @@
                          "socialmedia projects projects projects";
 }
 
-
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
 .naam {
     grid-area: naam;
     grid-column: 1/1;
@@ -39,11 +42,7 @@
     padding: 0 40px;
 }
 
-/* img {
-  max-width: 100%;
-  max-height: 100%;
-}
-
+/* 
 #portfoliolink {
   text-transform: uppercase;
   font-family:'Times New Roman', Times, serif;
