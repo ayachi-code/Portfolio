@@ -19,6 +19,12 @@ img {
   max-height: 100%;
 }
 
+.project {
+  grid-area: projects;
+  background-color: white;
+  padding-left: 40px;
+}
+
 /* 
 #portfoliolink {
   text-transform: uppercase;
