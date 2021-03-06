@@ -43,7 +43,7 @@ a {
   color: rgba(255, 255, 255, 0.812);
 }
 
-.container {
+#container {
     display: grid;
     grid-template-columns: repeat(4,2fr);
     grid-auto-rows: minmax(100px,auto);
@@ -53,8 +53,8 @@ a {
                          "naam intro intro intro"
                          "links content content content"
                          "links content content content"
-                         "socialmedia backgroundimage backgroundimage backgroundimage"
-                         "socialmedia backgroundimage backgroundimage backgroundimage";
+                         "socialmedia content content content"
+                         "socialmedia content content content";
 }
 
 
@@ -130,9 +130,7 @@ h4#introduction {
   padding: 0 40px;
 }
 
-
 .ssize {
   width:50px;
   height:50px;
 }
-
