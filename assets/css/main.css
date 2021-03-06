@@ -9,8 +9,8 @@ body, html {
 }
 
 button {
-  outline: none !important;
-  box-shadow: none !important;
+  outline: none;
+  box-shadow: none;
 } 
 
 ::-webkit-scrollbar {
@@ -135,4 +135,10 @@ h4#introduction {
 .ssize {
   width:50px;
   height:50px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .motto {
+    color: red;
+  }
 }
