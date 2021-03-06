@@ -43,13 +43,12 @@ a {
   color: rgba(255, 255, 255, 0.812);
 }
 
-#container {
+.container {
     display: grid;
     grid-template-columns: repeat(4,2fr);
     grid-auto-rows: minmax(100px,auto);
     margin: 0 auto;
-    min-height: 900px;
-
+    min-height: 100%;
     grid-template-areas: "naam intro intro intro"
                          "naam intro intro intro"
                          "links content content content"
@@ -137,8 +136,3 @@ h4#introduction {
   height:50px;
 }
 
-@media only screen and (max-width: 1000px) {
-  .motto {
-    color: red;
-  }
-}
