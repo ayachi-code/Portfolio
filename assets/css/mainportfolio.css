@@ -3,16 +3,16 @@
 *{
   box-sizing: border-box;
   padding: 0;
-  margin: 0;
+  margin: 0 !important; /*Avoid userAgent injection by browser*/
 }
 
 #containerPortfolio {
     display: grid;
-    grid-template-columns: repeat(4,2fr);
-    grid-auto-rows: minmax(100px,auto);
     margin: 0 auto;
     width: 100vw;
     height: 100vh;
+    min-width: auto;
+    min-height: auto;
     grid-template-areas: "naam projects projects projects"
                          "naam projects projects projects"
                          "links projects projects projects"
