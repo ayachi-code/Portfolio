@@ -1,11 +1,18 @@
 @import "/assets/css/main.css"; 
 
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 #containerPortfolio {
     display: grid;
     grid-template-columns: repeat(4,2fr);
     grid-auto-rows: minmax(100px,auto);
     margin: 0 auto;
-    min-height: 900px;
+    width: 100vw;
+    height: 100vh;
     grid-template-areas: "naam projects projects projects"
                          "naam projects projects projects"
                          "links projects projects projects"
