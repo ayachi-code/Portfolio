@@ -109,3 +109,10 @@ img {
   background-color: #ddd;
   color: black;
 }
+
+
+@media only screen and (min-width: 1300px) {
+  a {
+    width: 1000px;
+  }
+}
