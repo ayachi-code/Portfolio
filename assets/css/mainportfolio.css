@@ -12,12 +12,27 @@
     margin: 0 auto;
     min-width: 100vh;
     min-height: 100vh;
-    grid-template-areas: "naam projects projects projects"
-                         "naam projects projects projects"
-                         "links projects projects projects"
-                         "links projects projects projects"
-                         "socialmedia projects projects projects"
-                         "socialmedia projects projects projects";
+    grid-template-areas: "navigator navigator navigator navigator"
+                         "navigator navigator navigator navigator"
+                         "projects projects projects projects"
+                         "projects projects projects projects"
+                         "projects projects projects projects"
+                         "projects projects projects projects";
+}
+
+
+.navigator {
+  grid-area: navigator;
+  background-color: rgb(176, 11, 11);
+  min-height: 10vh;
+  display: flex;
+
+}
+
+li {
+  float: left;
+  display: block;
+  margin-left: 10vw;
 }
 
 img {
