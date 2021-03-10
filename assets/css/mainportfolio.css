@@ -26,13 +26,23 @@
   background-color: rgb(176, 11, 11);
   min-height: 10vh;
   display: flex;
-
+  overflow: hidden;
 }
 
-li {
+.navigator a {
   float: left;
-  display: block;
-  margin-left: 10vw;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navigator a.activeYear {
+  background-color: #FFFFFF;
+  color: black;
+  border-color: black;
+  border-style: solid;
 }
 
 img {
