@@ -5,6 +5,9 @@
   padding: 0;
   margin: 0;
 }
+body {
+  overflow: hidden; /* Hide scrollbars */
+}
 
 #containerPortfolio {
     display: grid;
