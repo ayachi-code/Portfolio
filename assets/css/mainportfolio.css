@@ -9,6 +9,9 @@ body {
   overflow: hidden; /* Hide scrollbars */
   font-family: 'Trebuchet MS', sans-serif;
 }
+a {
+  color: rgb(145, 11, 11);
+}
 
 #containerPortfolio {
     display: grid;
