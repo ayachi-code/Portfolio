@@ -33,18 +33,18 @@ img {
                          "projects projects projects projects";
 }
 
+#projects {
+  grid-area: projects;
+  background-color: white;
+  padding-left: 40px;
+}
+
 .navigator {
   grid-area: navigator;
   background-color: rgb(176, 11, 11);
   min-height: 10vh;
   display: flex;
   overflow: hidden;
-}
-
-#projects {
-  grid-area: projects;
-  background-color: white;
-  padding-left: 40px;
 }
 
 .navigator a {
@@ -105,7 +105,7 @@ img {
 }
 
 .projectinformation {
-  font-size: 1vw;
+  font-size: 1vw; /* Als scherm verkleind/vergroot dan scaled het */
 }
 
 .date {
@@ -114,6 +114,6 @@ img {
 
 @media only screen and (min-width: 1300px) {
   a {
-    width: 1000px;
+    width: 1000px; /*Responsive menu als menu groot word dan worden de boxes ook groot */
   }
 }
