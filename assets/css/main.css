@@ -8,18 +8,18 @@ body, html {
     background-size: cover;
 }
 
+::-webkit-scrollbar {
+  width: 0px; /* Dit verwijderd de scrollbar door de breefte 0 px te maken */
+}
+
 button {
   outline: none;
   box-shadow: none;
 } 
 
-::-webkit-scrollbar {
-  width: 0px;
-}
-
 a {
   text-decoration: none;
-  color: rgb(225, 198, 198);
+  color: white;
 }
 
 .touch {
