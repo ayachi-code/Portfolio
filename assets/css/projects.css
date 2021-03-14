@@ -1,5 +1,10 @@
 @import "/assets/css/main.css"; 
 
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 #containerPortfolio {
     display: grid;
     grid-template-columns: repeat(4,2fr);
@@ -13,12 +18,6 @@
                          "socialmedia projects projects projects"
                          "socialmedia projects projects projects";
 }
-
-img {
-  max-width: 100%;
-  max-height: 100%;
-}
-
 .project {
   grid-area: projects;
   background-color: white;
