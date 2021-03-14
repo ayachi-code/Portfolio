@@ -22,6 +22,54 @@ a {
   color: white;
 }
 
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(4,2fr);
+  grid-auto-rows: minmax(100px,auto);
+  margin: 0 auto;
+  min-height: 100%;
+  grid-template-areas: "naam intro intro intro"
+                       "naam intro intro intro"
+                       "links content content content"
+                       "links content content content"
+                       "socialmedia content content content"
+                       "socialmedia content content content";
+}
+
+.naam {
+  grid-area: naam;
+  grid-column: 1/1;
+  background-color: rgba(145,13,13,.8);
+  opacity: 0.8;
+  text-align: center;
+}
+
+.links {
+  grid-area: links;
+  grid-column: 1/1;
+  background-color: rgba(145,13,13,.8);
+  opacity: 0.8;
+  padding: 0 40px;
+}
+
+#information {
+  color: white;
+  font-weight: 300;
+  font-size: 30px;
+  position: fixed;
+  margin-top: 110px;
+}
+
+.socialmedia {
+  grid-area: socialmedia;
+  grid-column: 1/1;
+  background-color: rgba(145,13,13,.8);
+  opacity: 0.8;
+  padding: 0 40px;
+}
+
+
 .touch {
   text-transform: capitalize;
   color: rgb(225, 198, 198);
@@ -42,21 +90,6 @@ a {
 .portfoliolink, .contactmelink {
   color: rgba(255, 255, 255, 0.812);
 }
-
-#container {
-    display: grid;
-    grid-template-columns: repeat(4,2fr);
-    grid-auto-rows: minmax(100px,auto);
-    margin: 0 auto;
-    min-height: 100%;
-    grid-template-areas: "naam intro intro intro"
-                         "naam intro intro intro"
-                         "links content content content"
-                         "links content content content"
-                         "socialmedia content content content"
-                         "socialmedia content content content";
-}
-
 
 #content {
   padding-left: 110px;
@@ -96,38 +129,6 @@ h4#introduction {
   font-family: Arial, sans-serif;
   font-weight: 500;
   position: fixed;
-}
-
-.naam {
-  grid-area: naam;
-  grid-column: 1/1;
-  background-color: rgba(145,13,13,.8);
-  opacity: 0.8;
-  text-align: center;
-}
-
-.links {
-  grid-area: links;
-  grid-column: 1/1;
-  background-color: rgba(145,13,13,.8);
-  opacity: 0.8;
-  padding: 0 40px;
-}
-
-#information {
-  color: white;
-  font-weight: 300;
-  font-size: 30px;
-  position: fixed;
-  margin-top: 110px;
-}
-
-.socialmedia {
-  grid-area: socialmedia;
-  grid-column: 1/1;
-  background-color: rgba(145,13,13,.8);
-  opacity: 0.8;
-  padding: 0 40px;
 }
 
 .ssize {
