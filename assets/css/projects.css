@@ -17,6 +17,7 @@ img {
                          "links projects projects projects"
                          "socialmedia projects projects projects"
                          "socialmedia projects projects projects";
+  position: fixed;
 }
 
 .project {
