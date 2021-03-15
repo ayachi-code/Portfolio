@@ -5,7 +5,7 @@ body, html {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; /* Dit zorgt er voor dat de achtergrond niet herhaald word en er maar eentje is, en automatisch scaled */
 }
 
 ::-webkit-scrollbar {
@@ -25,10 +25,12 @@ a {
 
 #container {
   display: grid;
+  /* Rows en colums worden gegenereerd*/
   grid-template-columns: repeat(4,2fr);
   grid-auto-rows: minmax(100px,auto);
   margin: 0 auto;
   min-height: 100%;
+  /* Grid area indeling van website areas vind je benenden */
   grid-template-areas: "naam intro intro intro"
                        "naam intro intro intro"
                        "links content content content"
@@ -38,6 +40,7 @@ a {
 }
 
 .naam {
+  /* Naam,links,social media zijn onderdelen van de navigator.Navigator is beetje doorzichtig zodat je de achtergrond ziet */
   grid-area: naam;
   grid-column: 1/1;
   background-color: rgba(145,13,13,.8);

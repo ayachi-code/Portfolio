@@ -1,6 +1,7 @@
 @import "/assets/css/main.css"; 
 
 img {
+  /* Foto scaled met pagina */
   max-width: 100%;
   max-height: 100%;
 }
@@ -11,13 +12,13 @@ img {
     grid-auto-rows: minmax(100px,auto);
     margin: 0 auto;
     min-height: 900px;
+    /* Grid area van Container */
     grid-template-areas: "naam projects projects projects"
                          "naam projects projects projects"
                          "links projects projects projects"
                          "links projects projects projects"
                          "socialmedia projects projects projects"
                          "socialmedia projects projects projects";
-  position: fixed;
 }
 
 .project {
@@ -36,6 +37,7 @@ img {
   width: 30%;
   height: 90%;
   background-color: white;
+  /* Banner zit vast op scherm beweegt niet */
   position: fixed;
   left: 70%;
 }
@@ -44,7 +46,7 @@ img {
   width: 50%;
   left: 30%;
   color: black;
-  font-size: 13px;
+  /* Informatie box groote veranderd automatisch met scherm */
   font-size: 2vw;
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica';
 }
